@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather X</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-box">
+        <div class="secondary-box">
+            <h1 class="main-heading">Weather-X</h1>
+            <form class="input-form">
+                <label id="city-name">City Name</label>
+                <input type="text" id="city">
+                <button type="submit" id="submit">Show Weather</button>
+                <p class="invalid-city"></p>
+            </form>
+
+            <div class="after-click">
+             
+                <div class="city-not-found"></div>
+
+
+                <div class="weath" >
+                    <p id="name" class="data">Raebareli, Uttar Pradesh, India  </p>
+                    <p id="time" class="data"> Localtime: 2025-06-18 13:17</p>
+                    <p id="lat-log" class="data">lat: 26.4, long: 81.1</p>
+                </div>
+                <div class="weath">
+                    <p id="temp" class="data">Temp: 35.1°C/78.9°F</p>
+                    <p id="feels-like" class="data">Feels Like: 37.2°C/98.8°F</p>
+                    <p id="condn" class="data">Mist</p>
+                </div>
+                <div class="weath">  <p id="wind" class="data">Wind: 11.5km/h</p>
+                <p id="humid" class="data">Humidity: 53%</p>
+                <p id="visi" class="data">Visiblity: 5.0 km</p></div>
+                <div class="again"><p id="other">Check Another City</p></div>
+              
+               
+
+                
+            </div>
+            
+        </div>
+        <div class="loader" id="loader"></div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
